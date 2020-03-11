@@ -1,0 +1,87 @@
+body,
+.modal-content {
+    background-color: DarkKhaki !important;
+}
+
+#laracroft {
+    background: url("../img/lara.jpg");
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px !important;
+    background-position: center;
+}
+
+#nathandrake {
+    background: url("../img/nathan.jpg");
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px !important;
+    background-position: center;
+}
+
+.lara_weapon,
+.nathan_weapon {
+    height: 50px !important;
+}
+
+.content {
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto !important;
+    background-position: center;
+}
+
+table {
+    table-layout: fixed;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+td {
+    border: 1px solid black;
+    width: 50px;
+    background-color: Cornsilk;
+    background-size: 50px !important;
+}
+
+tr {
+    height: 50px;
+}
+
+.wall {
+    background-color: SaddleBrown;
+}
+
+.pistolet {
+    background-image: url("../img/pistolet.png");
+}
+
+.fusil {
+    background-image: url("../img/fusil.png");
+}
+
+.grenade {
+    background-image: url("../img/grenade.png");
+}
+
+.couteau {
+    background-image: url("../img/couteau.png");
+}
+
+.lara {
+    background-image: url("../img/lara.jpg");
+}
+
+.nathan {
+    background-image: url("../img/nathan.jpg");
+}
+
+td.active {
+    background-color: forestgreen;
+}
